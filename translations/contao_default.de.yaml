@@ -1,0 +1,16 @@
+CTE:
+    logo:
+        - Logo
+        - Erzeugt ein einzelnes Logo.
+FMD:
+    logo:
+        - Logo
+        - Fügt der Seite ein einzelnes Logo hinzu
+tl_content:
+    jumpTo:
+        - Weiterleitungsseite
+        - Bitte wählen Sie die Seite aus, zu der Besucher beim Anklicken eines Links oder Abschicken eines Formulars weitergeleitet werden.
+tl_module:
+    titleText:
+        - Link-Titel
+        - Der Link-Titel wird als title-Attribut im HTML-Markup eingefügt.

@@ -1,0 +1,16 @@
+CTE:
+    logo:
+        - Logo
+        - Generates a stand-alone logo image.
+FMD:
+    logo:
+        - Logo
+        - Adds a stand-alone logo image to the page
+tl_content:
+    jumpTo:
+        - Redirect page
+        - Please choose the page to which visitors will be redirected when clicking a link or submitting a form.
+tl_module:
+    titleText:
+        - Link title
+        - The link title is added as &lt;em&gt;title&lt;/em&gt; attribute in the HTML markup.
