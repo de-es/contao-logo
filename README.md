@@ -1,4 +1,4 @@
-# de-es/contao-logo
+# contao-logo
 
 `de-es/contao-logo` ist eine Erweiterung für [Contao CMS](https://contao.org/).
 
