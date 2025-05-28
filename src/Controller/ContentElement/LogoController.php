@@ -43,7 +43,7 @@ class LogoController extends AbstractContentElementController
 
         $figureBuilder
             ->fromUuid($model->singleSRC ?: '')
-            ->setSize($model->imgSize)
+            ->setSize($model->size)
         ;
 
         $page = PageModel::findById($model->jumpTo);
