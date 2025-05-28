@@ -13,4 +13,4 @@ tl_content:
 tl_module:
     titleText:
         - Link title
-        - The link title is added as &lt;em&gt;title&lt;/em&gt; attribute in the HTML markup.
+        - The link title is added as <em>title</em> attribute in the HTML markup.
