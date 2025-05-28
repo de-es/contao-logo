@@ -22,5 +22,5 @@ $GLOBALS['TL_DCA']['tl_module']['palettes']['logo'] = '
 $GLOBALS['TL_DCA']['tl_module']['fields']['titleText'] = [
     'inputType' => 'text',
     'eval' => ['maxlength' => 255, 'tl_class' => 'w50'],
-    'sql' => "varchar(255) NOT NULL default ''",
+    'sql' => ['type' => 'string', 'default' => ''],
 ];
