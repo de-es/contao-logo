@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 $GLOBALS['TL_DCA']['tl_module']['palettes']['logo'] = '
     {title_legend},name,type;
-    {source_legend},singleSRC,imgSize;
+    {source_legend},singleSRC;
     {redirect_legend},jumpTo,titleText;
     {template_legend:hide},customTpl;
     {protected_legend:hide},protected;

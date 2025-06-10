@@ -1,8 +1,27 @@
 {% extends "@Contao/content_element/_base.html.twig" %}
-{% use "@Contao/component/_figure.html.twig" %}
 
 {% block content %}
-    {% if image %}
-        {% with {figure: image} %}{{ block('figure_component') }}{% endwith %}
+    {% if not href %}
+        {% block image %}
+            {% if svg %}
+                {{ svg|raw }}
+            {% else %}
+                {% set img_attributes = attrs()
+                    .set('src', image)
+                    .set('alt', alt|default)
+                    .mergeWith(img_attributes|default)
+                %}
+                <img{{ img_attributes }}>
+            {% endif %}
+        {% endblock %}
+    {% else %}
+        {% set link_attributes = attrs()
+            .set('href', href)
+            .setIfExists('title', title)
+            .mergeWith(link_attributes|default)
+        %}
+        <a{{ link_attributes }}>
+            {{ block('image') }}
+        </a>
     {% endif %}
 {% endblock %}
