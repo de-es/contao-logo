@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 $GLOBALS['TL_DCA']['tl_module']['palettes']['logo'] = '
     {title_legend},name,type;
-    {source_legend},singleSRC;
+    {source_legend},singleSRC,inlineSvg;
     {redirect_legend},jumpTo,titleText;
     {template_legend:hide},customTpl;
     {protected_legend:hide},protected;
@@ -23,4 +23,10 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['titleText'] = [
     'inputType' => 'text',
     'eval' => ['maxlength' => 255, 'tl_class' => 'w50'],
     'sql' => ['type' => 'string', 'default' => ''],
+];
+
+$GLOBALS['TL_DCA']['tl_module']['fields']['inlineSvg'] = [
+    'inputType' => 'checkbox',
+    'eval' => ['tl_class' => 'w50'],
+    'sql' => ['type' => 'boolean', 'default' => false],
 ];

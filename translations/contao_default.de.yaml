@@ -10,7 +10,13 @@ tl_content:
     jumpTo:
         - Weiterleitungsseite
         - Bitte wählen Sie die Seite aus, zu der Besucher beim Anklicken eines Links oder Abschicken eines Formulars weitergeleitet werden.
+    inlineSvg:
+        - SVG einbetten
+        - Falls die Quelldatei im SVG-Format ist, das Logo direkt in den Quelltext einbetten.
 tl_module:
     titleText:
         - Link-Titel
         - Der Link-Titel wird als <em>title</em>-Attribut im HTML-Markup eingefügt.
+    inlineSvg:
+        - SVG einbetten
+        - Falls die Quelldatei im SVG-Format ist, das Logo direkt in den Quelltext einbetten.

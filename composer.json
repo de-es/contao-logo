@@ -1,6 +1,6 @@
 {
     "name": "de-es/contao-logo",
-    "description": "Contao extension providing a content element and frontend module for a single logo image",
+    "description": "Contao extension providing a content element and frontend module for directly embedding a single logo image",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
     "homepage": "https://github.com/de-es/contao-logo",

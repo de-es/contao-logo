@@ -41,7 +41,7 @@ class LogoController extends AbstractFrontendModuleController
             return new Response();
         }
 
-        if ('svg' === $file->extension) {
+        if ('svg' === $file->extension && $model->inlineSvg) {
             $svg = file_get_contents($file->path);
         }
 

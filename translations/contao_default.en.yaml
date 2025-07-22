@@ -10,7 +10,13 @@ tl_content:
     jumpTo:
         - Redirect page
         - Please choose the page to which visitors will be redirected when clicking a link or submitting a form.
+    inlineSvg:
+        - Embed SVG
+        - If the source file is in SVG format, embed the logo inline in the source code.
 tl_module:
     titleText:
         - Link title
         - The link title is added as <em>title</em> attribute in the HTML markup.
+    inlineSvg:
+        - Embed SVG
+        - If the source file is in SVG format, embed the logo inline in the source code.

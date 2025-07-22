@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 $GLOBALS['TL_DCA']['tl_content']['palettes']['logo'] = '
     {type_legend},type;
-    {source_legend},singleSRC;
+    {source_legend},singleSRC,inlineSvg;
     {link_legend},jumpTo,titleText;
     {template_legend:hide},customTpl;
     {protected_legend:hide},protected;
@@ -26,4 +26,10 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['jumpTo'] = [
     'eval' => ['fieldType' => 'radio'],
     'sql' => ['type' => 'integer', 'unsigned' => true, 'default' => 0],
     'relation' => ['type' => 'hasOne', 'load' => 'lazy'],
+];
+
+$GLOBALS['TL_DCA']['tl_content']['fields']['inlineSvg'] = [
+    'inputType' => 'checkbox',
+    'eval' => ['tl_class' => 'w50'],
+    'sql' => ['type' => 'boolean', 'default' => false],
 ];
